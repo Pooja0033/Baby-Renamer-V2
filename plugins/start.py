@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
+                                         [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/LazyDeveloper")],
                                           [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda1')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                          [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
     
 
@@ -106,7 +106,7 @@ async def send_doc(client, message):
             await message.reply_text("**__You are not subscribed my channel__** ",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
+                                         [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url=f"https://t.me/{update_channel}")]]))
             await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
