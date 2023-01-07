@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda1')],
-                                          [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/Prv_35")],
+                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://www.instagram.com/KL_02_pranav_")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/kmtz_v4'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/kmtz_channel_v3')],
+                                          [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://t.me/Owner_PM_Bot')]
                                           ]))
     
 
@@ -126,11 +126,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/mRiDerDM')],
-                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@LazyDeveloperr')],
+                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/Prv_35')],
+                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://www.instagram.com/KL_02_pranav_')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/LazyDeveloper'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/LazyPrincessSupport')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/kmtz_v4')],
+                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Owner_PM_Bot')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
