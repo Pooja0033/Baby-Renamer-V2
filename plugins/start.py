@@ -51,7 +51,7 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/Prv_35")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperrr")],
+                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://www.instagram.com/KL_02_pranav_")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/kmtz_v4'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/kmtz_channel_v3')],
                                       [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://t.me/Owner_PM_Bot')]
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda1')],
-                                             [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🪄 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🪄", url="https://t.me/Prv_35")],
+                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://www.instagram.com/KL_02_pranav_")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/kmtz_v4'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/kmtz_channel_v3')],
+                                             [InlineKeyboardButton("☕ 𝙱𝚞𝚢 𝙼𝚎 𝙰 𝙲𝚘𝚏𝚏𝚎𝚎 ☕", url='https://t.me/Owner_PM_Bot')]
                                           ]))
             except:
                 return
