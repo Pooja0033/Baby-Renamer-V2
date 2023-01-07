@@ -21,10 +21,10 @@ async def upgrade(bot,update):
 	Price Rs 206  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```7808912076@paytm```
+	Pay Using Upi I'd ```@Owner_PM_Bot```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @Owner_PM_Bot"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Owner_PM_Bot")], 
         			[InlineKeyboardButton("Paytm",url = "https://t.me/Owner_PM_Bot"),
