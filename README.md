@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/9936c273582628afb098c.png" alt="logo" target="/blank">
+<img src="https://telegra.ph/file/0acdfe497f5946ee23008.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://telegram.me/Owner_PM_Bot" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
