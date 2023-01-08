@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/0acdfe497f5946ee23008.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/Owner_PM_Bot" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
+ <b><a href="https://telegram.me/Owner_PM_Bot" target="/blank"> ρ𝘳ꪖꪀꪖꪜ🧞‍♂️ ( PREMIUM Renamer ) </a></>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
